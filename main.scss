@@ -1,0 +1,33 @@
+$primary: #7f51d6;
+$light: #ededed;
+$secondary: #e1e1e1;
+$danger: #db545a;
+$offcanvas-horizontal-width:        250px;
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+//Navbar
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(./images/toggler.png);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+  }
+
+.t:hover {
+    fill: #db545a;
+}
