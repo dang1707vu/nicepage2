@@ -12,6 +12,11 @@ $offcanvas-horizontal-width:        250px;
     font-family: 'Poppins', sans-serif;
 }
 
+.center {
+    width: auto;
+    margin: 20px;
+}
+
 
 //Navbar
 .navbar-toggler {
@@ -31,3 +36,25 @@ $offcanvas-horizontal-width:        250px;
 .t:hover {
     fill: #db545a;
 }
+
+
+//Hero Section
+.hero {
+    height: 100%;
+}
+
+.borderH {
+    margin-top: 20px;
+    border-style: solid;
+    border-bottom: #7f51d6;
+    border-width: 13px;
+}
+
+.heroImg {
+    background-image: url(/images/bg-hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    object-fit: contain;
+}
+

@@ -10769,6 +10769,11 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 
+.center {
+  width: auto;
+  margin: 20px;
+}
+
 .navbar-toggler {
   border: none;
 }
@@ -10785,6 +10790,25 @@ textarea.form-control-lg {
 
 .t:hover {
   fill: #db545a;
+}
+
+.hero {
+  height: 100%;
+}
+
+.borderH {
+  margin-top: 20px;
+  border-style: solid;
+  border-bottom: #7f51d6;
+  border-width: 13px;
+}
+
+.heroImg {
+  background-image: url(/images/bg-hero.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
