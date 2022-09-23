@@ -96,3 +96,31 @@ p {
 .fsH1 {
     font-size: 70px;
 }
+
+//Gallerie
+.pillar {
+    position: absolute;
+    background-color: #7f51d6;
+    width: 260px;
+    height: 2735px;
+    margin-top: 15px;
+}
+
+.cardImg2 {
+    object-fit: cover;
+    width: 340px;
+    height: 341,5px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 20px;
+}
+
+.cardGallerie {
+    background-color: white;
+    width: 340px;
+    height: 465.75px;
+}
+
+.pGallerie {
+    font-size: 20px;
+}
