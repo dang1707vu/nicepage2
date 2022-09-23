@@ -10769,6 +10769,10 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 .center {
   width: auto;
   margin: 20px;
@@ -10809,7 +10813,7 @@ textarea.form-control-lg {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center right;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .workout {
@@ -10836,6 +10840,14 @@ textarea.form-control-lg {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+.ad {
+  height: 55vh;
+}
+
+.fsH1 {
+  font-size: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
