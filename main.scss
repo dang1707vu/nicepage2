@@ -15,6 +15,7 @@ $offcanvas-horizontal-width:        250px;
 .center {
     width: auto;
     margin: 20px;
+    border: none;
 }
 
 
@@ -58,3 +59,28 @@ $offcanvas-horizontal-width:        250px;
     object-fit: contain;
 }
 
+//Workout
+.workout {
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.cardImg{
+    object-fit: cover;
+    width: 340px;
+    height: 231px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}

@@ -10772,6 +10772,7 @@ textarea.form-control-lg {
 .center {
   width: auto;
   margin: 20px;
+  border: none;
 }
 
 .navbar-toggler {
@@ -10809,6 +10810,32 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center right;
   object-fit: contain;
+}
+
+.workout {
+  width: 340px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.cardImg {
+  object-fit: cover;
+  width: 340px;
+  height: 231px;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
