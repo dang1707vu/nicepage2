@@ -50,7 +50,11 @@ p {
 
 
 //Hero Section
-
+.rowHero {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .borderH {
     margin-top: 20px;
     border-style: solid;
@@ -59,13 +63,45 @@ p {
 }
 
 .heroImg {
-    height: 450px;
-    background-size: contain;
+    height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
     object-fit: cover;
-    background-attachment: inherit;
+    float: right;
 }
+
+.rowHero {
+    padding-top: 40px;
+}
+
+// @media screen and (max-width: 430px) {
+// }
+
+// @media screen and (max-width: 605px) {
+
+// }
+
+@media screen and (min-width: 768px) {
+    .heroParagraph {
+        text-align: right;
+    }
+}
+
+// @media screen and (max-width: 922px) {
+//     .heroImg {
+//         height: 600px;
+//     }
+//     .hero {
+//         height: 600px;
+//     }
+// }
+
+// @media screen and (max-width: 1127px) {
+//     .heroImg {
+        
+//     }
+// }
 
 //Workout
 .workout {
@@ -94,12 +130,20 @@ p {
 }
 
 .ad {
-    height: 55vh;
+    height: 587px;
 }
 
 .fsH1 {
     font-size: 70px;
 }
+
+
+@media screen and (min-width:349px) {
+    .workout {
+        padding-top: 0px;
+    }
+}
+
 
 //Gallerie
 .pillar {

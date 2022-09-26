@@ -10797,6 +10797,12 @@ p {
   fill: #db545a;
 }
 
+.rowHero {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .borderH {
   margin-top: 20px;
   border-style: solid;
@@ -10805,14 +10811,23 @@ p {
 }
 
 .heroImg {
-  height: 450px;
-  background-size: contain;
+  height: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
   object-fit: cover;
-  background-attachment: inherit;
+  float: right;
 }
 
+.rowHero {
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .heroParagraph {
+    text-align: right;
+  }
+}
 .workout {
   width: 340px;
   margin-right: auto;
@@ -10840,13 +10855,18 @@ p {
 }
 
 .ad {
-  height: 55vh;
+  height: 587px;
 }
 
 .fsH1 {
   font-size: 70px;
 }
 
+@media screen and (min-width: 349px) {
+  .workout {
+    padding-top: 0px;
+  }
+}
 .pillar {
   position: absolute;
   background-color: #7f51d6;
