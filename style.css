@@ -10944,4 +10944,8 @@ p {
   letter-spacing: 5px;
 }
 
+.form-control {
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
