@@ -50,9 +50,6 @@ p {
 
 
 //Hero Section
-.hero {
-    height: 100%;
-}
 
 .borderH {
     margin-top: 20px;
@@ -62,10 +59,10 @@ p {
 }
 
 .heroImg {
-    background-image: url(/images/bg-hero.jpg);
+    height: 450px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: bottom right;
     object-fit: cover;
     background-attachment: inherit;
 }
