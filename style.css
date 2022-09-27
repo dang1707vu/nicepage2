@@ -10864,14 +10864,23 @@ p {
     height: 620px;
     position: absolute;
   }
+  .heroParagraph {
+    margin-top: 115px;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1255px) {
   .hero {
     height: 620px;
   }
   .heroImg {
     position: relative;
     height: 620px;
+  }
+  .heroParagraph {
+    margin-top: 70px;
+  }
+  .hHero {
+    font-size: 60px;
   }
 }
 .workout {
@@ -11128,6 +11137,31 @@ p {
     height: 1499px;
     margin-top: 15px;
     left: 180px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .textAd {
+    font-size: 90px;
+  }
+  .ad {
+    height: 587px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .textAd {
+    font-size: 120px;
+  }
+  .ad {
+    height: 642px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .textAd {
+    font-size: 140px;
+    margin-left: 60px;
+  }
+  .ad {
+    height: 642px;
   }
 }
 .paragraphCarousel {
