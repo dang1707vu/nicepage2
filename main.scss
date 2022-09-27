@@ -169,7 +169,7 @@ p {
 }
 
 //Carousel
-.pCarousel {
+.paragraphCarousel {
     font-size: 20px;
     line-height: 1.75;
 }
@@ -211,6 +211,38 @@ p {
     background-color: #7f51d6;
     border-color: #7f51d6;
     border-style: solid;
+}
+@media screen and (min-width: 576px) {
+    .paragraphCarousel {
+        font-size: 20px;
+        line-height: 1.75;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .paragraphCarousel {
+        font-size: 30px;
+        line-height: 1.75;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .paragraphCarousel {
+        font-size: 30px;
+        line-height: 1.75;
+        max-width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .carousel-control-prev {
+        margin-left: 200px;
+    }
+    .carousel-control-next {
+        margin-right: 200px;
+    }
 }
 
 //Team
@@ -256,12 +288,6 @@ p {
 .pTeam {
     font-size: 21px;
 }
-
-// @media screen and (min-width: 1140px) {
-//     .containerTeam {
-//         max-width: 1140px;
-//     }
-// }
 
 @media screen and (max-width: 576px) {
     .teamText {
