@@ -161,6 +161,135 @@ p {
     font-size: 70px;
 }
 
+@media screen and (max-width: 575px) {
+    .workoutCard1 {
+        width: 320px;
+        height: 160px;
+    }
+    .workoutCard2 {
+        width: 320px;
+        height: 230px;
+        margin-top: 20px;
+    }
+    .cardImg{
+        width: 340px;
+        height: 231px;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    .workout {
+        width: 100%;
+    }
+    .cardImg{
+        width: 540px;
+        height: 384px;
+    }
+    .imgWrapper {
+        width: 540px;
+        height: 384px;
+    }
+    .workoutCard1 {
+        width: 540px;
+        height: 396px;
+    }
+    .workoutCard2 {
+        width: 395px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .pCard1 {
+        font-size: 95px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .workout {
+        width: 100%;
+    }
+    .cardImg{
+        width: 345px;
+        height: 246px;
+    }
+    .imgWrapper {
+        margin-left: 15px;
+        width: 345px;
+        height: 246px;
+    }
+    .workoutCard1 {
+        width: 375px;
+        height: 560px;
+    }
+    .workoutCard2 {
+        margin-left: 15px;
+        width: 315px;
+        height: 280px;
+        margin-top: 0;
+        margin-bottom: 34px;
+    }
+    .pCard1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .workout {
+        width: 100%;
+    }
+    .cardImg{
+        width: 455px;
+        height: 300px;
+    }
+    .imgWrapper {
+        width: 455px;
+        height: 300px;
+    }
+    .workoutCard1 {
+        width: 445px;
+        height: 618px;
+    }
+    .workoutCard2 {
+        margin-left: 15px;
+        width: 425px;
+        height: 288px;
+        margin-top: 0;
+        margin-bottom: 34px;
+    }
+    .pCard1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .workout {
+        width: 100%;
+    }
+    .cardImg{
+        width: 555px;
+        height: 406px;
+    }
+    .imgWrapper {
+        width: 555px;
+        height: 406px;
+    }
+    .workoutCard1 {
+        width: 555px;
+        height: 694px;
+    }
+    .workoutCard2 {
+        margin-left: 15px;
+        width: 451px;
+        height: 228px;
+        margin-top: 27px;
+        margin-bottom: 34px;
+    }
+    .pCard1 {
+        font-size: 100px;
+    }
+}
+
+
 
 @media screen and (min-width:349px) {
     .workout {
