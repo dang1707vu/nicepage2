@@ -10854,10 +10854,6 @@ p {
   min-height: 100%;
 }
 
-.ad {
-  height: 587px;
-}
-
 .fsH1 {
   font-size: 70px;
 }
@@ -10939,10 +10935,17 @@ p {
 }
 
 .containerTeam {
-  width: 340px;
+  z-index: 2;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1;
+  justify-content: center;
+}
+
+.cardTeam {
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 .pillarHorizontal {
@@ -10951,15 +10954,19 @@ p {
   width: 100%;
   height: 150px;
   margin-top: 370px;
+  z-index: 1;
+}
+
+.teamText {
+  margin-left: 20px;
 }
 
 .teamImg {
   object-fit: cover;
   width: 320px;
   height: 288px;
-  float: none;
   margin-top: 20px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .social-icon {
@@ -10968,6 +10975,104 @@ p {
   letter-spacing: 5px;
 }
 
+.pTeam {
+  font-size: 21px;
+}
+
+@media screen and (max-width: 576px) {
+  .teamText {
+    margin-left: 0px;
+  }
+  .containerTeam {
+    max-width: 340px;
+  }
+  .pillarHorizontal {
+    margin-top: 380px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .containerTeam {
+    max-width: 576px;
+  }
+  .teamImg {
+    width: 520px;
+    height: 468px;
+  }
+  .pillarHorizontal {
+    margin-top: 480px;
+    height: 240px;
+  }
+  .teamH1 {
+    font-size: 80px;
+  }
+  .teamImg.second {
+    margin-top: 75px;
+  }
+  .teamImg.third {
+    margin-top: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .containerTeam {
+    max-width: 768px;
+  }
+  .teamImg {
+    width: 207px;
+    height: 198px;
+  }
+  .pillarHorizontal {
+    margin-top: 440px;
+    height: 60px;
+  }
+  .teamH1 {
+    font-size: 80px;
+  }
+  .teamImg.second {
+    margin-top: 50px;
+  }
+  .teamImg.third {
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .containerTeam {
+    max-width: 992px;
+  }
+  .teamImg {
+    width: 240px;
+    height: 259px;
+  }
+  .pillarHorizontal {
+    margin-top: 400px;
+    height: 110px;
+  }
+  .teamImg.second {
+    margin-top: 90px;
+  }
+  .teamImg.third {
+    margin-top: 180px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containerTeam {
+    max-width: 1200px;
+    height: 1000px;
+  }
+  .teamImg {
+    width: 307px;
+    height: 327px;
+  }
+  .pillarHorizontal {
+    margin-top: 500px;
+    height: 110px;
+  }
+  .teamImg.second {
+    margin-top: 90px;
+  }
+  .teamImg.third {
+    margin-top: 180px;
+  }
+}
 .form-control {
   border: none;
 }
