@@ -10806,6 +10806,7 @@ p {
   width: 340px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 40px;
 }
 
 .borderH {
@@ -10816,21 +10817,61 @@ p {
 }
 
 .heroImg {
+  max-width: 671px;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: right;
   object-fit: cover;
   float: right;
 }
 
-.rowHero {
-  padding-top: 40px;
+.heroParagraph {
+  text-align: left;
 }
 
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 990px;
+    text-align: left;
+  }
+  .heroImg {
+    height: 598px;
+    width: 645px;
+  }
+  .rowHero {
+    margin-left: 20px;
+    width: 80%;
+  }
+}
 @media screen and (min-width: 768px) {
+  .hero {
+    height: 562px;
+  }
+  .heroImg {
+    position: absolute;
+    height: 562px;
+  }
   .heroParagraph {
     text-align: right;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero {
+    height: 620px;
+  }
+  .heroImg {
+    height: 620px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 620px;
+  }
+  .heroImg {
+    position: relative;
+    height: 620px;
   }
 }
 .workout {
