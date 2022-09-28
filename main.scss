@@ -767,6 +767,11 @@ p {
         left: 290px;
         top: -110px;
     }
+    .centerG {
+        height: 100%;
+        margin: auto;
+        width: 95%;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -797,6 +802,11 @@ p {
         height: 411px;
         left: 270px;
         top: -140px;
+    }
+    .centerG {
+        height: 80%;
+        margin: auto;
+        width: 80%;
     }
 }
 
